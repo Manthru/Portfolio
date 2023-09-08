@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
 }
@@ -40,6 +40,7 @@ nav ul li a:hover {
     color: aqua;
     font-size: 1.04rem;
 }
+
 .home-sci a {
     display: inline-flex;
     justify-content: center;
@@ -53,6 +54,7 @@ nav ul li a:hover {
     color: #0ef;
     text-decoration: none;
     margin: 30px 15px 30 px 0;
+    
 }
 
 home-sci a:hover {
@@ -71,13 +73,19 @@ home-sci a:hover {
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
-
+    
 }
 
 .btn-box:hover {
     box-shadow: 0 0 5px cyan,
         0 0 25px cyan, 0 0 50px cyan,
         0 0 100px cyan, 0 0 200px cyan;
+}
+
+.rightsection img:hover {
+    box-shadow: 0 0 5px rgb(62, 36, 193),
+        0 0 25px rgb(54, 33, 174), 0 0 50px rgb(70, 28, 184),
+        0 0 100px rgb(43, 26, 169), 0 0 200px rgb(70, 33, 163);
 }
 
 main hr {
@@ -131,47 +139,47 @@ h2 {
 
 
 
-.secondsection {
-    max-width: 80vw;
-    margin: auto;
-    height: 250vh;
-}
-
-.secondsection h2 {
-    font-size: 1.9rem;
-}
-
-
-.secright {
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    max-width: 80%;
-}
-
-.slider {
-    width: 90%;
-    height: 500px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    margin: 20px auto;
-}
 
 #img {
-    width: 100%;
-    height: 71%;
+    width: 89%;
+    height: 97%;
     object-fit: contain;
 }
-
-img {
-    width: 100%;
-    height: 100%;
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
 }
 
-p{
-    height: 231px;
+.about-img img {
+    max-width: 630px;
+    height: auto;
+    width: 40%;
+    border-radius: 8px;
+    margin: 0 331px;
 }
+
+.about-img img:hover {
+    box-shadow: 0 0 5px rgb(62, 36, 193),
+        0 0 25px rgb(54, 33, 174), 0 0 50px rgb(70, 28, 184),
+        0 0 100px rgb(43, 26, 169), 0 0 200px rgb(70, 33, 163);
+}
+
+.about-text h2 {
+    font-size: 60px;
+
+}
+
+.about-text h2 span {
+    color: #0ef;
+}
+
+.about-text p {
+    height: 529px;
+    width: 87%;
+}
+
 
 
 footer {
@@ -197,4 +205,4 @@ footer.footer-rights {
     text-align: center;
     color: gray;
     padding: 12px 0;
-}
+} 
