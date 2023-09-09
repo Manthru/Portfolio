@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="images/bg.png.jpg">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/b60ea7cea4.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -24,7 +25,8 @@
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="#About">About</a></li>
-                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Services">Services</a></li>                    
+                    <li><a href="#Skills">Skills</a></li>
                     <li><a href="#Contact">contact</a></li>
 
                 </ul>
@@ -66,7 +68,7 @@
             </div>
             <div class="about-text">
                 <h2>About<span>Me</span></h2>
-                <p>My name is Ramavath Manthru Naik, and I am a fresher in college. I am from andhra pradesh and have always been passionate
+                <p>My name is Ramavath Manthru Naik from andhra pradesh and have been always passionate
                     about learning new things. I decided to pursue a degree in business management because I believe
                     that it is a field that can open up numerous opportunities for personal and professional growth.
 
@@ -76,10 +78,42 @@
 
                     I hope to make the most of my college time and become a well-rounded and successful individual</p>
 
+                <a href="#" class="btn-box">More About me</a>
+
             </div>
         </section>
 
-        <footer>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My<span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Our web design services offer tailored, user-centric websites that drive online success. With custom designs, mobile responsiveness, and SEO optimization, we create memorable digital experiences. Elevate your online presence with our expert web design solutions.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-crop-simple"></i>
+
+                        <h2>UI/UX Design</h2>
+                        <p>Elevate your digital presence with our expert UI/UX design services. We create intuitive, user-centric interfaces that enhance user experiences and drive engagement.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Design</h2>
+                        <p>Transform your digital presence with our professional app design services. We craft stunning, user-friendly interfaces that elevate user experiences and boost engagement.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       <h2 class="head">My<span>Skills</span></h1>
+        
+
+          <footer>
             <div class="footer">
                 <div class="footer-first"></div>
                 <h3>
@@ -108,13 +142,19 @@
                     <li>Services</li>
                     <li>Contect</li>
                 </ul>
-            </div>
+            </div> 
             <div class="footer-rights" style="text-align: center;">
                 Copyrights&#169;www.manthrunaik455@gmail.com | All rights reserved
             </div>
         </footer> 
-       
-<script src="[main].js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+ var typed = new Typed('#element', {
+        strings: ['Web Developer', 'game Designer', 'Softwer Developer', 'Entrepreneur'],
+        typeSpeed: 50,
+    });
+</script>
+        <script src="main.js"></script>
 </body>
 
 </html>
