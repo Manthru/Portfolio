@@ -249,19 +249,18 @@
     
  }
  
- /* skills secation */
+ /* contact secation */
 
- .skills{
-    background: #262626;
+ #Contact{
+    margin-left:10%;
  }
- .skill-main{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-row-gap: 30px;
-    grid-column-gap: 50px;
-    
+ .manthru p i{
+    color: #ff004f;
+    margin:auto;
+    margin-top: 23px;
+    font-size: 30px;
  }
+
  
  
   footer {
